@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "cannon-es": "^0.15.1",
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.5.1",
+    "lil-gui": "^0.19.2",
+    "three": "^0.164.1"
+  },
+  "devDependencies": {
+    "vite": "^5.2.11"
+  }
+}
