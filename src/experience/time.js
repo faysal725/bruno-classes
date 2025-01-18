@@ -3,7 +3,7 @@ import EventEmitter from "./utils/EventEmitter";
 export default class Time extends EventEmitter {
   constructor() {
     super();
-    console.log("its on");
+    // console.log("its on");
 
     this.start = Date.now();
     this.current = this.start;
@@ -22,7 +22,7 @@ export default class Time extends EventEmitter {
     this.current = currentTime
     this.elapsed = this.current - this.start 
     
-    console.log(this.delta)
+    // console.log(this.delta)
     
     
     this.trigger('tick')
